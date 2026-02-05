@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { AppMode, TrendData, TrendItem, Region } from './types';
-import { fetchTrends } from '../services/geminiService';
+import { fetchTrends } from './services/geminiService';
 import { 
   TrendingUp, 
   Music, 
